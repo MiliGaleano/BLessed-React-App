@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BLessed-React-App/precache-manifest.3df6a961b06d5292e70e3ec4009a6421.js"
+  "/BLessed-React-App/precache-manifest.28708feda51c35c6ced0fad55a4a8c66.js"
 );
 
 self.addEventListener('message', (event) => {

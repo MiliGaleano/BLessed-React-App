@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BLessed-React-App/static/css/main.9d09f6be.chunk.css",
-    "main.js": "/BLessed-React-App/static/js/main.fd3cb8a3.chunk.js",
-    "main.js.map": "/BLessed-React-App/static/js/main.fd3cb8a3.chunk.js.map",
+    "main.js": "/BLessed-React-App/static/js/main.f36c6b10.chunk.js",
+    "main.js.map": "/BLessed-React-App/static/js/main.f36c6b10.chunk.js.map",
     "runtime-main.js": "/BLessed-React-App/static/js/runtime-main.e12f0a1a.js",
     "runtime-main.js.map": "/BLessed-React-App/static/js/runtime-main.e12f0a1a.js.map",
     "static/css/2.e0c80bc5.chunk.css": "/BLessed-React-App/static/css/2.e0c80bc5.chunk.css",
     "static/js/2.e816e51c.chunk.js": "/BLessed-React-App/static/js/2.e816e51c.chunk.js",
     "static/js/2.e816e51c.chunk.js.map": "/BLessed-React-App/static/js/2.e816e51c.chunk.js.map",
     "index.html": "/BLessed-React-App/index.html",
-    "precache-manifest.3df6a961b06d5292e70e3ec4009a6421.js": "/BLessed-React-App/precache-manifest.3df6a961b06d5292e70e3ec4009a6421.js",
+    "precache-manifest.28708feda51c35c6ced0fad55a4a8c66.js": "/BLessed-React-App/precache-manifest.28708feda51c35c6ced0fad55a4a8c66.js",
     "service-worker.js": "/BLessed-React-App/service-worker.js",
     "static/css/2.e0c80bc5.chunk.css.map": "/BLessed-React-App/static/css/2.e0c80bc5.chunk.css.map",
     "static/css/main.9d09f6be.chunk.css.map": "/BLessed-React-App/static/css/main.9d09f6be.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.e0c80bc5.chunk.css",
     "static/js/2.e816e51c.chunk.js",
     "static/css/main.9d09f6be.chunk.css",
-    "static/js/main.fd3cb8a3.chunk.js"
+    "static/js/main.f36c6b10.chunk.js"
   ]
 }
