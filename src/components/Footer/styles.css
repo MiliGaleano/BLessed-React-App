@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0.5vw;
+    padding-top: 1.5vw;
+    z-index: 99;
+    background-color: rgb(41, 70, 135);
+}
+
+.divFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconFooter{
+    padding: 0;
+    height: 10vw;
+    width: 10vw;
+}

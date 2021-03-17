@@ -1,0 +1,52 @@
+ .DivStars{
+  display: flex;
+  flex-wrap: wrap;
+  width: 36vw;
+  margin-left: 6vw;
+  justify-content: space-evenly;
+  margin-bottom: 4vw;
+}
+
+.sliderDiv{
+  margin: 0;
+}
+
+.svgStar{
+    width: 6vw;
+}
+
+.star {
+    fill: none;
+    stroke:rgb(41, 70, 135);
+    stroke-width:15;
+    stroke-miterlimit:10;
+  }
+
+  .star.filled {
+    fill: rgb(228, 119, 125); 
+    stroke:rgb(228, 119, 125);
+    stroke-width:15;
+    stroke-miterlimit:10; 
+  }
+  .star.half {
+    fill:url(#left-half); 
+    stroke:url(#left-right-stroke);
+    stroke-width:15;
+    stroke-miterlimit:10;
+  }
+
+
+  @media (min-width: 790px) { 
+
+  .DivStars{
+    width: 12vw;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .svgStar{
+    width: 2vw;
+}
+
+
+}

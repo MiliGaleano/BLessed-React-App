@@ -1,0 +1,201 @@
+.imgRegistration {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10vw;
+  }
+  
+.formLogin{
+    margin-top: 8vw;
+  }
+  
+.h1Login {
+    width: 60vw;
+    margin-left: 20vw;
+    font-family: 'Kodchasan', sans-serif;
+      color:  rgb(228, 119, 125);
+      font-weight: 700;
+      font-size: 4vw;
+      text-align: center;
+  }
+  
+.inputsLogin{
+    margin-top: 4vw;
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  
+.labelLogin {
+    font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 3vw;
+      color: rgb(41, 70, 135);
+  }
+  
+.emailInput {
+  width: 100%;
+  height: 5vw;
+  background-color: rgb(249, 236, 115);
+  opacity: 0.5;
+  color: rgb(41, 70, 135);
+  border-radius: 10vw;
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    color: rgb(41, 70, 135);
+    padding-left: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  }
+
+.passwordInput {
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(249, 236, 115);
+    opacity: 0.5;
+    color: rgb(41, 70, 135);
+    border-radius: 10vw;
+    font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 3vw;
+      color: rgb(41, 70, 135);
+      padding-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+    }
+  
+.buttonsLogin{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vw;
+    width: 60vw;
+    margin-left: 20vw;
+    justify-content: space-evenly;
+  }
+  
+.buttonsubmitLog {
+    width: 20vw;
+    margin-left: 0vw;
+}
+
+.buttonsubmitSign {
+    width: 20vw;
+    margin-left: 0vw;
+    background-color:rgb(175, 217, 221);
+    color: rgb(41, 70, 135);
+}
+  
+.buttonForgot{
+    margin-top: 4vw;
+    margin-left: 30vw;
+    width: 40vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    color: rgb(41, 70, 135);
+    text-align: center;
+}
+
+
+@media (min-width: 790px) { 
+
+.divRegistration{
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 500px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -375px;
+    margin-top: -250px;
+}
+
+.imgRegistration{
+    width: 280px;
+    height: 497.6px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.imgRegistration:hover{
+opacity: 100%;
+}
+
+.h1Login {
+  width: 300px;
+  margin-left: 0vw;
+  font-size: 1.8vw;
+}
+
+.formLogin {
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 0px;
+    font-size: 1.5rem;
+}
+
+.inputsLogin{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 0px;
+  }
+
+.labelLogin {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.emailInput {
+width: 286px;
+height: 40px;
+font-size: 1rem;
+padding-left: 14px;
+margin-top: 8px;
+margin-bottom: 12px;
+
+}
+
+.passwordInput {
+  width: 286px;
+  height: 40px;
+  font-size: 1rem;
+  padding-left: 14px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  }
+
+.buttonsLogin{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 0px;
+}
+
+  .buttonsubmitLog {
+    width: 130px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .buttonsubmitLog:hover{
+    background-color:  rgb(228, 119, 125);
+  }
+
+  .buttonsubmitSign {
+    width: 130px;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .buttonsubmitSign:hover{
+    background-color:  rgb(228, 119, 125);
+  }
+
+ .buttonForgot{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 300px;
+    font-size: 0.8rem;
+  }
+  .buttonForgot:hover{
+    background-color:  rgb(228, 119, 125);
+  }
+}
+

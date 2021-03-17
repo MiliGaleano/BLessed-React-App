@@ -1,0 +1,50 @@
+.divCategories{
+    margin-top: 6vw;
+    margin-bottom: 16vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.divImgCategory{
+    width: 40vw;
+    margin-top: 5vw;
+}
+
+.divImgCategory img{
+    width: 40vw;
+}
+
+.divSearchedResult {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+
+.titleLists{
+    padding-top: 2vw;
+  }
+
+@media (min-width: 790px) { 
+
+.divCategories{
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+.divImgCategory{
+    width: 200px;
+    margin-top: 2vw;
+    padding: 0 20px 0 20px;
+}
+
+.divImgCategory img{
+    width: 200px;
+}
+
+.divSearchedResult {
+    padding-top: 0;
+}
+
+}

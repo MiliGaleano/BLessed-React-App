@@ -1,0 +1,38 @@
+.Header{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    background-color: rgb(41, 70, 135);
+    width: 100%;
+    z-index: 98;
+}
+
+.divLogo{
+    flex: 20%;
+    padding: 8.5px;
+}
+
+.logo{
+    padding-left: 8px;
+    padding-top: 1px;
+    width: 10vw;
+}
+
+@media (min-width: 790px) { 
+
+.Header {
+    height: 61px;
+}
+
+.divLogo{
+    padding: 10px;
+    height: auto;
+}
+
+.logo {
+    margin-left: 4px;
+    width: 40px;
+  }
+
+}

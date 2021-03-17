@@ -1,0 +1,160 @@
+.divSearch{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.5vw;
+    justify-content: flex-end;
+}
+
+@keyframes searchopen {
+    from {width: 8vw;}
+    to {width: 45vw;}
+  }
+
+  .closedSearch{
+    width: 8vw;
+    height: 8vw;
+    border-style: solid;
+    border-color: rgb(228, 119, 125);
+    border-width: 0.5px;
+    border-radius: 5vw;
+  }
+
+.openSearch{
+    width: 8vw;
+    height: 8vw;
+    border-style: solid;
+    border-color: rgb(228, 119, 125);
+    border-width: 0.5px;
+    border-radius: 5vw;
+    animation-name: searchopen;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode:forwards;
+  }
+
+.openSearch:focus {
+    color: transparent;
+  }
+
+.FormSearch{
+    margin-top: 1vw;
+}
+
+.Glass{
+    width: 4vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+
+.Glass:hover{
+  opacity: 50%;
+}
+
+  @keyframes inputanimation {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+  }
+
+  .inputSearch{
+    height: 6vw;
+    width: 36vw;
+    padding-left: 2vw;
+    animation-name: inputanimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    color:  rgb(228, 119, 125);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+  }
+
+  .inputSearch::placeholder{
+    color:  rgb(228, 119, 125);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+
+  @keyframes glassbuttonanimation {
+    0%    {opacity: 0;}
+    50%   {transform: rotate(0deg);
+          opacity: 0;}
+    100%  {transform: rotate(360deg); 
+          opacity: 1;}
+  }
+
+  .buttonSearchform {
+    width: 4vw;
+    height: 0vw;
+    padding-top: 1vw;
+    background-color: transparent;
+  }
+
+  .buttonSearchform:focus {
+    background-color: transparent;
+  }
+  .buttonSearchform:hover {
+    background-color: transparent;
+  }
+
+.GlassButton {
+    width: 4vw;
+    animation-name: glassbuttonanimation; 
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}  
+
+.GlassButton:hover{
+  opacity: 50%;
+}
+
+
+@media (min-width: 790px) { 
+
+.divSearch{
+    padding: 14px;
+}
+
+@keyframes searchopen {
+  from {width: 24px;}
+  to {width: 360px;}
+}
+
+.closedSearch{
+  width: 32px;
+  height: 32px;
+}
+
+.openSearch{
+  width: 33px;
+  height: 33px;
+}
+
+
+.Glass {
+  width: 16px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.FormSearch{
+  margin-top: 4px;
+}
+
+.inputSearch{
+  height: 24px;
+  width: 316px;
+  padding-left: 8px;
+  font-size: 1rem;
+}
+
+.buttonSearchform {
+  width: 32px;
+  padding-top: 0;
+}
+
+.GlassButton {
+  width: 16px;
+  padding-top: 3px;
+}
+
+}

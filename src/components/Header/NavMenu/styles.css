@@ -1,0 +1,42 @@
+.hambMenu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+.divMenu{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: flex-end;
+  right: 0;
+  margin-right: 30px;
+  top: 9px;
+  background-color: rgb(41, 70, 135);
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.iconHamb{
+height: 24px;
+padding: 15px;
+margin-top: 4px;
+}
+
+.iconHamb:hover{
+opacity: 60%;
+}
+
+.icon{
+  padding: 0;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.icon:hover{
+    opacity: 60%;
+  }
+  
+.heartpadding{
+    padding-top: 4px;
+  }

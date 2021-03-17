@@ -1,0 +1,66 @@
+.swiper-container {
+    margin-left: 3.5%;
+    margin-top: 1em;
+}
+
+.swiper-wrapper{
+    width: auto;
+}
+
+.swiper-container img {
+    width: 36vw;
+}
+
+.LastSlide{
+    opacity: 0;
+}
+
+.divTextSlider{
+    display: flex;
+    flex-wrap: wrap;
+    width: 36vw;
+    justify-content: space-evenly;
+}
+
+.textSlider{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(41, 70, 135);
+    font-weight: 700;
+    font-size: 4vw;
+    margin-top: 1vw;
+}
+
+.favsheartlist{
+width: 7vw;
+fill: rgb(228, 119, 125);
+}
+
+.favsheart1{
+    fill:none;
+}
+
+@media (min-width: 790px) { 
+
+.swiper-container img {
+    width: 12vw;
+}
+
+.divTextSlider{
+    width: 12vw;
+}
+
+.swiper-slide .swiper-slide-active {
+    width: 14vw; 
+    margin-right: 2vw
+}
+
+.favsheartlist{
+    width: 2vw;
+}
+
+.textSlider{
+    font-size: 1.2vw;
+    margin-top: 0.2vw;
+}
+
+}

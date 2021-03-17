@@ -1,0 +1,22 @@
+.loading{
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 97;
+    background-size: 80vw;
+    }
+
+    
+@media (min-width: 510px) { 
+    .loading {
+        background-size: 60vw;
+       }
+}
+
+@media (min-width: 790px) { 
+.loading {
+    background-size: auto 500px;
+    }
+}

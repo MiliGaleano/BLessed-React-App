@@ -1,0 +1,226 @@
+.ModalSeriesCard{
+  background-color: rgb(219, 219, 219);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.closeModalCard{
+  position: relative;
+  left: 86vw;
+  top: 8vw;
+  width: 10vw;
+  height: 10vw;
+  font-weight: 800;
+  font-size: 5vw;
+  padding: 0;
+  z-index: 101;
+}
+
+.divSeriesCard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 96vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4vw;
+    filter: drop-shadow(0px 4px 4px rgba(100, 100, 100, 0.15));
+}
+
+.imgCard{
+    width: 40vw;
+    margin-left: 4vw;
+    margin-top: 4vw;
+}
+
+.imgCard:hover{
+  opacity: 100%;
+}
+
+.seriesData{
+    margin-left: 4vw;
+    margin-top: 4vw;
+    width: 45vw;
+}
+
+h2{
+    font-family: 'Kodchasan', sans-serif;
+    color:  rgb(228, 119, 125);
+    font-weight: 600;
+    font-size: 5vw;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(41, 70, 135);
+    font-weight: 300;
+    font-size: 3vw;
+    font-style: italic;
+    margin-bottom: 1vw;
+}
+
+.descriptionSeries{
+    font-family: 'Poppins', sans-serif;
+    color:  rgb(41, 70, 135);
+    font-weight: 400;
+    font-size: 2.5vw;
+}
+
+.divButtonsCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+}
+
+.svgheart{
+  display: none;
+  margin-top: 4.4vw;
+  margin-left: 4vw;
+  height: 6.2vw;
+  fill:none;
+  stroke:rgb(41, 70, 135);
+  stroke-width: 35;
+  stroke-miterlimit:10;
+}
+.svgheart.favsvg {
+  fill:rgb(228, 119, 125);
+  stroke:none;
+  height: 6.8vw;
+}
+
+.svgwatchedicon {
+  margin-top: 4.2vw;
+  margin-left: 4.5vw;
+  height: 7vw;
+  fill:none;
+  stroke:rgb(41, 70, 135);
+  stroke-width:40;
+  stroke-miterlimit:10;
+  }
+
+  .svgchecked {
+    fill:rgb(41, 70, 135);
+  stroke:rgb(255, 255, 255);
+  }
+
+.svgeyewatch{ 
+  margin-top: 3.5vw;
+  margin-left: 4vw;
+  height: 8.5vw;
+  fill:none;
+  stroke:rgb(41, 70, 135);
+  stroke-width: 30;
+  stroke-miterlimit:10;
+}
+.eyewatch {
+  fill:rgb(228, 119, 125);
+  stroke: rgb(228, 119, 125);
+}
+.eyewatch.eye {
+  fill:white;
+  stroke:none;
+}
+
+.buttCard{
+  width:70px;
+  height:30px; 
+  padding:0;
+  margin-top:3.7vw;
+  }
+
+ @media (min-width: 790px) { 
+
+  .closeModalCard{
+    width: 4vw;
+    height: 4vw;
+    font-size: 2vw;
+    left: 68vw;
+    top: 6vw;
+  }
+  
+  .divSeriesCard{
+      margin-top: 4vw;
+      margin-left: 25vw;
+      width: 50vw;
+  }
+  
+  .imgCard{
+      width: 200px;
+      margin-left: 2vw;
+      margin-top: 2vw;
+  }
+  
+  .seriesData{
+      margin-left: 2vw;
+      margin-top: 2vw;
+      width: 30vw;
+  }
+
+  h2{
+    font-size: 2vw;
+}
+
+h3{
+    font-size: 0.8vw;
+}
+
+.descriptionSeries{
+    font-size: 1vw;
+}
+
+.svgheart{
+  margin-top: 1.2vw;
+  margin-left: 2vw;
+  height: 2.8vw;
+}
+.svgheart:hover{
+  opacity: 60%;
+}
+
+.svgheart.favsvg {
+  height: 3vw;
+  margin-top: 1vw;
+}
+.svgheart.favsvg:hover{
+  opacity: 60%;
+}
+
+.svgwatchedicon {
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+  height: 3.2vw;
+  }
+.svgwatchedicon:hover{
+  opacity: 60%;
+}
+
+.svgeyewatch{ 
+  margin-top: 0.7vw;
+  margin-left: 2vw;
+  height: 4.1vw;
+}
+.svgeyewatch:hover{
+  opacity: 60%;
+}
+
+.starsCard{
+  margin-left: 3vw;
+  margin-bottom: 1.5vw;
+}
+
+.buttCard{
+  width: 150px;
+  height: 3vw;
+  padding: 0px;
+  margin-top: 1.2vw;
+}
+ }

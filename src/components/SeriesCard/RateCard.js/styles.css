@@ -1,0 +1,148 @@
+.modalRate{
+    position: absolute;
+    top: 16vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    width: 80vw;
+    height: auto;
+    background-color: rgb(249, 236, 115);
+    border-radius: 4vw;
+}
+
+.h2modalRate{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(41, 70, 135);
+    font-weight: 500;
+    font-size: 4vw;
+    width: 60vw;
+    margin-left: 10vw;
+    margin-top: 8vw;
+    text-align: center;
+    margin-bottom: 6vw;
+}
+
+.DivRateButtons{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding:0;
+    width: 70vw;
+    margin-left: 6vw;
+}
+
+.DivRateButtons div{
+    display: inline-block;
+    margin:0 5px 0 0;
+    width:20px;
+    height:20px;
+    position:relative;
+}
+
+.DivRateButtons label, .DivRateButtons input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 3vw;
+    text-align: center;
+    padding: 2vw;
+    color: rgb(41, 70, 135);
+}
+
+.DivRateButtons input[type="radio"] {
+    opacity:0;
+    z-index:100;
+    width: 1vw;
+}
+
+.DivRateButtons input[type="radio"]:checked + label {
+    background-color: rgb(228, 119, 125);
+    color: rgb(249, 236, 115);
+}
+
+.DivRateButtons label {
+     padding:3px;
+     cursor:pointer;
+    z-index:90;
+    display:inline-block;
+    border-radius: 50%;
+    color: rgb(41, 70, 135);
+    background-color: rgb(175, 217, 221);
+}
+
+.DivRateButtons label:hover {
+     background:#DDD;
+}
+
+.buttonModalRate{
+    font-family: 'Kodchasan', sans-serif;
+    color: rgb(228, 119, 125);
+    font-weight: 600;
+    font-size: 5vw;
+    text-align: center;
+    width: 10vw;
+    margin-left: 35vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.buttonModalRate:hover {
+    background-color: transparent;
+}
+
+
+@media (min-width: 790px) { 
+
+.modalRate{
+    top: 5vw;
+    margin-left: 5vw;
+    width: 40vw;
+    border-radius: 4vw;
+}
+
+.h2modalRate{
+    font-size: 2vw;
+    width: 80%;
+    margin: 10% 10% 5% 10%;
+}
+
+.DivRateButtons{
+    width: 80%;
+    margin-left: 13%;
+}
+
+.DivRateButtons div{
+    margin:0 5px 0 0;
+    width:35px;
+    height:35px;
+}
+
+.DivRateButtons label, .DivRateButtons input {
+    font-size: 1.3vw;
+}
+
+.buttonModalRate{
+    font-size: 3vw;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.buttonModalRate:hover {
+    color: rgb(41, 70, 135);
+}
+
+.yesnobut{
+    width: 20%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+}
